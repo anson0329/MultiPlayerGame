@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "2e47264e-639d-fe62-f736-19d338520214": {
+      "ProjectGuid": "2e47264e-639d-fe62-f736-19d338520214",
+      "DisplayName": "Assembly-CSharp",
+      "ColorIndex": 0
+    },
+    "68d4337e-2561-9c93-7863-abd83221732e": {
+      "ProjectGuid": "68d4337e-2561-9c93-7863-abd83221732e",
+      "DisplayName": "PlayFab",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
