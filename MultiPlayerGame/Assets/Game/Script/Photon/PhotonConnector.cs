@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class PhotonConnector : MonoBehaviourPunCallbacks
 {
+    public static Action OnGetPhotonFriends;
+
     #region Unity Method
     private void Start()
     {
@@ -51,7 +53,8 @@ public class PhotonConnector : MonoBehaviourPunCallbacks
     public override void OnJoinedLobby()
     {
         Debug.Log("你已經連線上Photon Lobby");
-        CreatePhotonRoom("TestRoom");
+        OnGetPhotonFriends?.Invoke();
+        //CreatePhotonRoom("TestRoom");
     }
 
     public override void OnCreatedRoom()
